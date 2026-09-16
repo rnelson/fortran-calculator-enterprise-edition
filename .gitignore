@@ -1,1 +1,3 @@
 calc
+bin/win64/*
+src/*.pdb
