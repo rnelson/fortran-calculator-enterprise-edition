@@ -1,0 +1,1 @@
+FC=x86_64-linux-gnu-gfortran FCFLAGS="-g" make

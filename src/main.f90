@@ -1,5 +1,4 @@
 program calculator
-    implicit none
     use calc_part_001, only: calc_part_001_run
     use calc_part_002, only: calc_part_002_run
     use calc_part_003, only: calc_part_003_run
@@ -73,6 +72,7 @@ program calculator
     use calc_part_071, only: calc_part_071_run
     use calc_part_072, only: calc_part_072_run
     use calc_part_073, only: calc_part_073_run
+    implicit none
     integer :: a, b, result
     character(len=1) :: op_char
     integer :: op
