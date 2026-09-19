@@ -1,3 +1,7 @@
 calc
+calc-debug
+bin/linux-amd64/*
+bin/linux-amd64-debug/*
 bin/win64/*
+bin/win64-debug/*
 src/*.pdb
