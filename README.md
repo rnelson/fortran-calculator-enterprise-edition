@@ -16,7 +16,7 @@ That is it. No division. No decimals. No negative input. No floating point.
 No scientific notation. No parentheses. No operator precedence. No history.
 No undo. No config file. No plugins. No API. No GUI. No TUI. No CLI flags.
 
-And it is **75,091,301 lines of Fortran code**.
+And it is **75,092,669 lines of Fortran code**.
 
 ## Why?
 
