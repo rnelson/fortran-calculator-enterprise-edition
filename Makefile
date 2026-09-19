@@ -9,6 +9,9 @@ all: $(BIN)
 $(BIN): $(SRCS)
 	$(FC) $(SRCS) $(FCFLAGS) -o $(BIN)
 
+$(BIN)-debug: $(SRCS)
+	$(FC) $(SRCS) $(FCFLAGS) -g -o $(BIN)
+
 clean:
 	rm -f $(BIN) $(SRC_DIR)/*.o $(SRC_DIR)/*.mod
 
