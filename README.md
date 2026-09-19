@@ -38,7 +38,7 @@ program that dispatches by the first operand.
 ## FAQ
 
 **Q: Does it compile?**
-A: Yes. Tested with `gfortran` on Linux/amd64 and `ifx` (Intel Fortran, LLVM-based) on Windows/amd64.
+A: [Yes it does!](https://github.com/OverLessski/fortran-calculator-enterprise-edition/pull/1) Tested with `gfortran` on Linux/amd64 and `ifx` (Intel Fortran, LLVM-based) on Windows/amd64.
 
 **Q: Did you test it?**
 A: Yes.
