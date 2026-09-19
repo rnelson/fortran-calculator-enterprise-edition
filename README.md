@@ -4,7 +4,7 @@
 
 ## What is this?
 
-This is a calculator.
+[This is a calculator.](https://www.reddit.com/r/fortran/comments/1wfcnoa/i_wrote_a_calculator_in_77_million_lines_of/)
 
 It supports exactly three operations:
 
@@ -38,12 +38,15 @@ program that dispatches by the first operand.
 ## FAQ
 
 **Q: Does it compile?**
+
 A: [Yes it does!](https://github.com/OverLessski/fortran-calculator-enterprise-edition/pull/1) Tested with `gfortran` on Linux/amd64 and `ifx` (Intel Fortran, LLVM-based) on Windows/amd64.
 
 **Q: Did you test it?**
+
 A: Yes.
 
 **Q: Can I use this in my project?**
+
 A: Yes. But it is GPL v3, so you must open-source your entire codebase.
    Including the parts you are embarrassed about.
 
