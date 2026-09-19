@@ -1,6 +1,6 @@
-# The 77-Million-Line Calculator
+# The 75-Million-Line Calculator
 
-> A calculator in 77 million lines of Fortran. What else do you need for happiness?
+> A calculator in 75 million lines of Fortran. What else do you need for happiness?
 
 ## What is this?
 
@@ -32,28 +32,21 @@ There is no `*` that multiplies.
 
 ## Architecture
 
-The codebase is split into 73 Fortran modules of ~44 MB each, plus a main
+The codebase is split into 73 Fortran modules of ~45 MB each, plus a main
 program that dispatches by the first operand.
 
 ## FAQ
 
 **Q: Does it compile?**
-A: In theory, yes. It is syntactically valid Fortran.
+A: Yes. Tested with `gfortran` on Linux/amd64 and `ifx` (Intel Fortran, LLVM-based) on Windows/amd64.
 
 **Q: Did you test it?**
-A: I tried. My 32 GB of RAM was not enough. If you have more, be my guest
-and please report back with the exact point where gfortran gives up.
+A: Yes.
 
 **Q: Can I use this in my project?**
 A: Yes. But it is GPL v3, so you must open-source your entire codebase.
    Including the parts you are embarrassed about.
 
-**Q: Why?**
-A: Because the joke stops being funny at some point. That point was module 4.
-
 ## License
 
-GNU General Public License v3.0.
-
-Yes, really. If you use this in a commercial product, you must open-source
-your entire codebase. Including your own 77 million lines of `SELECT CASE`.
+Licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). Forked from [OverLessski/fortran-calculator-enterprise-edition](https://github.com/OverLessski/fortran-calculator-enterprise-edition).
